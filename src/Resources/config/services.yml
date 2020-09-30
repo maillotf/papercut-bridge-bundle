@@ -1,0 +1,9 @@
+services:
+    papercut.service:
+        class: MaillotF\Papercut\PapercutBridgeBundle\Service\PapercutService
+        arguments:
+            - "%papercut.authentication.path%"
+            - "%papercut.authentication.token%"
+            - "%papercut.authentication.protocol%"
+            - "%papercut.authentication.host%"
+            - "%papercut.authentication.port%"

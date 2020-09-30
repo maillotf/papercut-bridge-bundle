@@ -1,0 +1,27 @@
+
+{
+    "name": "maillotf/papercut-bridge-bundle",
+    "type": "symfony-bundle",
+    "description": "A Papercut bundle for Symfony",
+    "keywords": ["papercut", "print", "bridge", "symfony"],
+    "homepage": "https://github.com/maillotf/papercut-bridge-bundle",
+    "authors": [{
+        "name": "Flavien Maillot",
+        "email": "contact@webcomputing.fr"
+    }],
+    "require": {
+        "php": "^7.1",
+        "symfony/http-kernel": "^3.2|^4.0|^4.1|^5.1",
+		"symfony/config": "^3.2|^4.0|^4.1|^5.1",
+		"symfony/dependency-injection": "^3.2|^4.0|^4.1|^5.1",
+		"phpxmlrpc/phpxmlrpc": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": { 
+			"MaillotF\\Papercut\\PapercutBridgeBundle\\": "src/" 
+		}
+    }
+}
