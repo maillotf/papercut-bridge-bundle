@@ -8,7 +8,7 @@ namespace MaillotF\Papercut\PapercutBridgeBundle\Service;
  * @package MaillotF\Papercut\PapercutBridgeBundle\Service
  * @author Flavien Maillot "contact@webcomputing.fr"
  */
-class PapercutService implements papercutServiceInterface
+class PapercutService implements PapercutServiceInterface
 {
 
 	/**
