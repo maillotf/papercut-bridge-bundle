@@ -1,5 +1,9 @@
 # Papercut-bridge-bundle
 
+[![Software license][ico-license]](LICENSE)
+[![Latest stable][ico-version-stable]][link-packagist]
+![Packagist PHP Version Support][ico-php-version]
+
 Symfony bundle for Papercut XML-RPC client which is base on token authentication
 
 ## Required configuration
@@ -58,3 +62,9 @@ class exampleController extends AbstractController
 
 }
 ```
+
+[ico-license]: https://img.shields.io/github/license/maillotf/papercut-bridge-bundle.svg?style=flat-square
+[ico-version-stable]: https://img.shields.io/packagist/v/maillotf/papercut-bridge-bundle
+[ico-php-version]: https://img.shields.io/packagist/php-v/maillotf/papercut-bridge-bundle
+
+[link-packagist]: https://packagist.org/packages/maillotf/papercut-bridge-bundle
